@@ -7,28 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA6DE451BF433C300E77F40 /* README.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 7EA6DE441BF433C300E77F40 /* README.rtfd */; };
 		7EF9750D156F10B60020D400 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF9750C156F10B60020D400 /* Cocoa.framework */; };
 		7EF97517156F10B60020D400 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EF97515156F10B60020D400 /* InfoPlist.strings */; };
 		7EF97519156F10B60020D400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97518156F10B60020D400 /* main.m */; };
 		7EF9751D156F10B60020D400 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF9751B156F10B60020D400 /* Credits.rtf */; };
 		7EF97520156F10B60020D400 /* OTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9751F156F10B60020D400 /* OTAppDelegate.m */; };
 		7EF97523156F10B60020D400 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF97521156F10B60020D400 /* MainMenu.xib */; };
+		7EF9752B156F10D30020D400 /* OTMouseWarpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9752A156F10D30020D400 /* OTMouseWarpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EA6DE441BF433C300E77F40 /* README.rtfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.rtfd; path = README.rtfd; sourceTree = "<group>"; };
 		7EF97508156F10B60020D400 /* MouseWarpBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseWarpBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF9750C156F10B60020D400 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7EF9750F156F10B60020D400 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7EF97510156F10B60020D400 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7EF97511156F10B60020D400 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7EF97514156F10B60020D400 /* MouseWarpBug-Info.plist */ = {isa = PBXFileReference; path = "MouseWarpBug-Info.plist"; sourceTree = "<group>"; };
+		7EF97514156F10B60020D400 /* MouseWarpBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MouseWarpBug-Info.plist"; sourceTree = "<group>"; };
 		7EF97516156F10B60020D400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EF97518156F10B60020D400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7EF9751A156F10B60020D400 /* MouseWarpBug-Prefix.pch */ = {isa = PBXFileReference; path = "MouseWarpBug-Prefix.pch"; sourceTree = "<group>"; };
+		7EF9751A156F10B60020D400 /* MouseWarpBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MouseWarpBug-Prefix.pch"; sourceTree = "<group>"; };
 		7EF9751C156F10B60020D400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		7EF9751E156F10B60020D400 /* OTAppDelegate.h */ = {isa = PBXFileReference; path = OTAppDelegate.h; sourceTree = "<group>"; };
+		7EF9751E156F10B60020D400 /* OTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTAppDelegate.h; sourceTree = "<group>"; };
 		7EF9751F156F10B60020D400 /* OTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTAppDelegate.m; sourceTree = "<group>"; };
 		7EF97522156F10B60020D400 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7EF97529156F10D30020D400 /* OTMouseWarpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTMouseWarpView.h; sourceTree = "<group>"; };
+		7EF9752A156F10D30020D400 /* OTMouseWarpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMouseWarpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 		7EF974FD156F10B60020D400 = {
 			isa = PBXGroup;
 			children = (
+				7EA6DE441BF433C300E77F40 /* README.rtfd */,
 				7EF97512156F10B60020D400 /* MouseWarpBug */,
 				7EF9750B156F10B60020D400 /* Frameworks */,
 				7EF97509156F10B60020D400 /* Products */,
@@ -84,6 +90,8 @@
 			children = (
 				7EF9751E156F10B60020D400 /* OTAppDelegate.h */,
 				7EF9751F156F10B60020D400 /* OTAppDelegate.m */,
+				7EF97529156F10D30020D400 /* OTMouseWarpView.h */,
+				7EF9752A156F10D30020D400 /* OTMouseWarpView.m */,
 				7EF97521156F10B60020D400 /* MainMenu.xib */,
 				7EF97513156F10B60020D400 /* Supporting Files */,
 			);
@@ -156,6 +164,7 @@
 			files = (
 				7EF97517156F10B60020D400 /* InfoPlist.strings in Resources */,
 				7EF9751D156F10B60020D400 /* Credits.rtf in Resources */,
+				7EA6DE451BF433C300E77F40 /* README.rtfd in Resources */,
 				7EF97523156F10B60020D400 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +178,7 @@
 			files = (
 				7EF97519156F10B60020D400 /* main.m in Sources */,
 				7EF97520156F10B60020D400 /* OTAppDelegate.m in Sources */,
+				7EF9752B156F10D30020D400 /* OTMouseWarpView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +300,7 @@
 				7EF97528156F10B60020D400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
